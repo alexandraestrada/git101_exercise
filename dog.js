@@ -7,12 +7,12 @@ function Dog (name, breed, age, sound, imgUrl) {
     this.imgUrl = imgUrl; 
 }
 
-// dog Instances
+// Dog Instances
 var chiquitaBanana = new Dog('Chiquita Banana', 'chihuahua', 14, 'meeeeeow','https://s-media-cache-ak0.pinimg.com/236x/ea/ce/66/eace66909626c5a34c0dfcb75286f958.jpg');
 var Emy = new Dog('Emy','shepard mix', 7, 'woof woof!','http://www.yourpurebredpuppy.com/dogbreeds/photos-AB/australianshepherds-th1.jpg' );
 
 
-// dog Array
+// Dog Array
 var dogArray = [chiquitaBanana, Emy];
 
 //Output to HTML
